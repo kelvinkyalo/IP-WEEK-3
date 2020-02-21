@@ -1,0 +1,100 @@
+body {
+    background-color: ;
+    line-height: 20px;
+}
+
+#welcome {
+    background-image: url("/images/backgrounds/h_img.jpg");
+    padding-top: 300px;
+    background-size: cover;
+    color: white;
+}
+
+#services {
+    background-image: url("/images/backgrounds/s_image.jpg");
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+#contacts {
+    background-image: url("/images/backgrounds/c_image.jpg");
+}
+
+#li {
+    display: inline;
+}
+
+h1,
+h6 {
+    text-align: center;
+}
+
+#welcome>img {
+    padding-left: 50%;
+    padding-bottom: 50px;
+}
+
+#welcome>h6 {
+    padding-bottom: 110px;
+}
+
+#about {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#what>p {
+    display: inline-block;
+    padding-left: 170px;
+    padding-right: 150px;
+}
+
+#flexboxx {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    /* border: 2px solid black; */
+    /* display: flex;
+    flex-direction: row; */
+    /* padding-left: 30px; */
+    position: relative;
+}
+
+.image {
+    display: block;
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 20px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: yellow;
+    color: purple;
+    font-size: 20px;
+}
