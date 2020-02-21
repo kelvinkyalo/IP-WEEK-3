@@ -49,10 +49,14 @@ h6 {
     padding-bottom: 50px;
 }
 
-#what>p {
-    display: inline-block;
+#what {
+    /* display: inline-block;
     padding-left: 170px;
-    padding-right: 150px;
+    padding-right: 150px; */
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 30px; */
+    justify-content: space-evenly;
 }
 
 form {
@@ -65,10 +69,6 @@ form {
 }
 
 .container {
-    /* border: 2px solid black; */
-    /* display: flex;
-    flex-direction: row; */
-    /* padding-left: 30px; */
     position: relative;
 }
 
@@ -124,3 +124,22 @@ textarea {
     text-align: center;
     padding-top: 40px;
 }
+
+img {
+    display: show;
+}
+
+#initially-showing {
+    display: none;
+}
+
+.clickable {
+    cursor: pointer;
+    /* color: rgb(255, 0, 76); */
+}
+
+.clickable:hover {
+    text-decoration: none;
+}
+
+p {}
