@@ -115,26 +115,6 @@ textarea {
     padding-top: 40px;
 }
 
-
-/* img {
-    display: show;
-}
-
-#initially-showing {
-    display: none;
-}
-
-.clickable {
-    cursor: pointer;
-     color: rgb(255, 0, 76); 
-
-
-}
-.clickable:hover {
-    text-decoration: none;
-}
-*/
-
 #showing {
     display: none;
     /* padding-left: 50px;
@@ -143,8 +123,8 @@ textarea {
 
 #hidden {
     display: show;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 100px;
 }
 
 .clickable {
@@ -161,6 +141,8 @@ textarea {
 
 #hidden2 {
     display: show;
+    padding-left: 150px;
+    padding-right: 100px;
 }
 
 #showing3 {
@@ -169,9 +151,29 @@ textarea {
 
 #hidden3 {
     display: show;
+    padding-left: 150px;
+    padding-right: 100px;
 }
 
 .what {
     display: flex;
     padding: 60px;
+}
+
+#showing {
+    padding-left: 40px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#showing2 {
+    padding-left: 40px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#showing3 {
+    padding-left: 40px;
+    text-align: center;
+    justify-content: space-around;
 }
