@@ -54,8 +54,6 @@ form {
     text-align: center;
 }
 
-
-/* 
 #flexboxx {
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +97,6 @@ form {
     color: purple;
     font-size: 20px;
 }
- */
 
 input {
     opacity: 0.2;
@@ -160,6 +157,8 @@ textarea {
     padding-right: 100px;
 }
 
+
+/* 
 .what {
     display: flex;
     padding: 60px;
@@ -181,4 +180,4 @@ textarea {
     padding-left: 40px;
     text-align: center;
     justify-content: space-around;
-}
+} */
