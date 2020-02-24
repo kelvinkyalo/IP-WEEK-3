@@ -18,7 +18,8 @@ $(document).ready(function() {
 });
 
 function userName(submit) {
-    var name = document.getElementById("name").value
-    alert("gggg " + name + "we have received your message. Thank you fro reaching out to us.");
-
+    var name = $("input#name").val();
+    var email = $('input#email').val();
+    alert("" + name + " we have received your message.Thank you for reaching out to us.");
+    event.preventDefault();
 }
