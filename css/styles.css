@@ -56,6 +56,7 @@ form {
 #flexboxx {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 20px;
 }
 
 .container {
@@ -69,7 +70,7 @@ form {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
-    padding: 20px;
+    padding: 10px;
 }
 
 .middle {
@@ -91,7 +92,7 @@ form {
 }
 
 .text {
-    background-color: yellow;
+    background-color: white;
     color: purple;
     font-size: 20px;
 }
