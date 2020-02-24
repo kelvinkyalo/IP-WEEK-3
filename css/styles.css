@@ -44,7 +44,7 @@ h6 {
 }
 
 #about {
-    font-family: 'Merienda One', ;
+    font-family: 'Merienda One', serif;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 50px;
@@ -157,8 +157,6 @@ textarea {
     padding-right: 100px;
 }
 
-
-/* 
 .what {
     display: flex;
     padding: 60px;
@@ -180,4 +178,4 @@ textarea {
     padding-left: 40px;
     text-align: center;
     justify-content: space-around;
-} */
+}
