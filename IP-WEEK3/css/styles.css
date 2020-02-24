@@ -49,16 +49,6 @@ h6 {
     padding-bottom: 50px;
 }
 
-#what {
-    /* display: inline-block;
-    padding-left: 170px;
-    padding-right: 150px; */
-    display: flex;
-    flex-direction: row;
-    /* padding-left: 30px; */
-    justify-content: space-evenly;
-}
-
 form {
     text-align: center;
 }
@@ -125,7 +115,8 @@ textarea {
     padding-top: 40px;
 }
 
-img {
+
+/* img {
     display: show;
 }
 
@@ -135,11 +126,52 @@ img {
 
 .clickable {
     cursor: pointer;
-    /* color: rgb(255, 0, 76); */
+     color: rgb(255, 0, 76); 
+
+
+}
+.clickable:hover {
+    text-decoration: none;
+}
+*/
+
+#showing {
+    display: none;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+
+#hidden {
+    display: show;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 .clickable:hover {
     text-decoration: none;
 }
 
-p {}
+#showing2 {
+    display: none;
+}
+
+#hidden2 {
+    display: show;
+}
+
+#showing3 {
+    display: none;
+}
+
+#hidden3 {
+    display: show;
+}
+
+.what {
+    display: flex;
+    padding: 60px;
+}
